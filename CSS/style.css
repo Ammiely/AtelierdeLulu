@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+
+/*!---RESET---*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    Font-family: "Bodoni Moda", serif;
+    
+}
+    /**----HEADER-----*/
+header{
+    background-color: pink;
+    width: 100%;
+    height: 120px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    /*display: flex;
+    justify-content: space-around;
+    align-items: center;
+    */
+}
+header a img {
+    height: 100px;
+    width: 70px;
+    margin-left: 10px;
+}
+.nav-color{
+    background-color: pink;
+}
+.colorin{
+    color: black !important;
+}
+
+header form .botonbusqueda{
+    border: 1px solid black;
+    color: black;
+}
+header form .botonbusqueda:hover{
+    background-color: white;
+    color: #d3687a;
+}
+/*.headlogo{
+    display: flex;
+    align-self: left;
+}
+header nav ul li{
+    padding: 20px;
+    font-size: 18px;
+}
+header nav ul li a{
+    color: black;
+    font-weight: bolder;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+}*/
+/**---MAIN----*/
+/*.hero{
+    aspect-ratio: auto 1172 / 609;
+}*/
+.hero{
+    margin: 20px;
+}
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgb(202, 88, 107)' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E")!important;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgb(202, 88, 107)' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E")!important;
+}
+/*.hero{
+    width: 100%;
+    height: 800px;
+    background-image: url(../img/hero\ banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: end;
+    color: white;
+}
+.hero a{
+    font-weight: bolder;
+    color: black;
+    background-color: pink;
+    padding: 10px;
+}**/
+.articuloshome{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.articuloshome div{
+    width: 300px;
+    border: 3px solid #d3687a;
+    margin: 20px;
+    text-align: center;
+}
+.articuloshome div a{
+    color: black;
+    font-weight: bolder;
+}
+.articuloshome div img{
+    width: 100%;
+}
+.infolocales{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 5%;
+    text-align: center;
+}
+
+/**----SALES----*/
+.saletext{
+    text-align: center;
+}
+/**---TEMPORADA INVIERNO 2024----*/
+.temporadatext{
+    text-align: center;
+}
+.temporadatext div{
+    width: 100%;
+    height: 800px;
+    background-image: url(../img/banner\ 2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: top;
+}
+/**----NOSOTROS---*/
+.nosotros{
+    display: flex;
+}
+.nosotros img{
+    border: 1px;
+    margin: 40px;
+    height: 500px;
+    width: 500px;
+}
+.nosotros .nosotros-text{
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+}
+.showroom{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 5%;
+}
+.formulariovisita{
+    margin-bottom: 5%;
+}
+    /*display: flex;
+    justify-content: center;
+    margin-left: 400px;
+    margin-right: 400px;
+}    
+*/
+.newsletter{
+    font-size: 10px;
+    
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: pink;
+    height: 200px;
+    margin-top: 100px;
+}
+.buttonenv{
+    background-color: black;
+    color: pink;
+    font-size: 12px;
+    padding: 5px;
+}
+footer div a img{
+    width: 50px;
+    height: 50px;
+}
+@media (max-width:790px) {
+    .infolocales{
+        display: flex;
+        align-content: center;
+        align-items: center;
+        margin: 5%;
+        text-align: center;
+        flex-flow: column-reverse;
+    }
+}
+@media (max-width:600px) {
+    .infolocales{
+        display: flex;
+        align-content: center;
+        align-items: center;
+        margin: 5%;
+        text-align: center;
+        flex-flow: column-reverse;
+    }
+    .infolocales img{
+        max-width: 275px;
+        max-height: 275px;
+    }
+    .infolocales-text{
+        font-size: 12px;
+    }
+    .articuloshome{
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .articuloshome div{
+        width: 150px;
+        border: 3px solid #d3687a;
+        margin: 20px;
+        text-align: center;
+    }
+    .articuloshome div a{
+        color: black;
+        font-weight: bolder;
+    }
+    .articuloshome div img{
+        width: 100%;
+    }
+}
+@media (max-width:275px) {
+    .infolocales{
+        display: flex;
+        align-content: center;
+        align-items: center;
+        margin: 5%;
+        text-align: center;
+        flex-flow: column-reverse;
+    }
+    .infolocales img{
+        max-width: 175px;
+        max-height: 175px;
+    }
+    .infolocales-text{
+        font-size: 10px;
+    }
+    .articuloshome{
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .articuloshome div{
+        width: 90px;
+        border: 3px solid #d3687a;
+        margin: 20px;
+        text-align: center;
+    }
+    .articuloshome div a{
+        color: black;
+        font-weight: bolder;
+    }
+    .articuloshome div img{
+        width: 100%;
+        height: 50%;
+    }
+    footer div a img{
+        width: 35px;
+        height: 35px;
+    }
+}
