@@ -1,0 +1,28 @@
+header{
+    background-color: nth($colores , 1);
+    width: 100%;
+    height: 120px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+header a img {
+    height: 100px;
+    width: 70px;
+    margin-left: 10px;
+}
+.nav-color{
+    background-color: nth($colores , 1);
+}
+.colorin{
+    color: black !important;
+}
+
+header form .botonbusqueda{
+    border: 1px solid nth($colores , 3);
+    color: nth($colores , 3);
+}
+header form .botonbusqueda:hover{
+    background-color: white;
+    color: #d3687a;
+}

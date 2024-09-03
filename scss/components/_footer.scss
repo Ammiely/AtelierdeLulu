@@ -1,0 +1,20 @@
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: nth($colores , 1);
+    height: 200px;
+    margin-top: 100px;
+}
+.buttonenv{
+    background-color: nth($colores , 1);
+    border-radius: 6px;
+    border: solid 1.5px nth($colores , 3);
+    font-size: nth($font , 2);
+    padding: 10px;
+    @extend %links;
+}
+footer div a img{
+    width: 50px;
+    height: 50px;
+}

@@ -1,0 +1,103 @@
+@media (max-width:800px) {
+    .articulossale{
+        width: 500px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 1fr;
+        gap: 1rem;
+    }
+    .tarjetassale{
+        border: 3px solid #d3687a;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        font-weight: bolder;
+        color:  black;
+    }
+    .imagensale{
+        width: 100%;
+        height: 100%;
+    }
+    .tarjetasaletext{
+        color: black;
+    }
+}
+@media (max-width:790px) {
+    .infolocales{
+        display: flex;
+        align-content: center;
+        align-items: center;
+        margin: 5%;
+        text-align: center;
+        flex-flow: column-reverse;
+    }
+}
+@media (max-width:520px) {
+    .articulossale{
+        width: 200px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-auto-rows: 1fr;
+        gap: 1rem;
+    }
+    .nosotros{
+        display: flex;
+        margin: 20px;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .nosotros img{
+        border: 1px;
+        margin: 40px;
+        height: 400px;
+        width: 300px;
+    }
+}
+@media (max-width:600px) {
+    .infolocales img{
+        max-width: 275px;
+        max-height: 275px;
+    }
+    .infolocales-text{
+        font-size: 12px;
+    }
+    .articuloshome{
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .articuloshome div{
+        width: 150px;
+        border: 3px solid #d3687a;
+        margin: 20px;
+        text-align: center;
+    }
+    .articuloshome div a{
+        color: black;
+        font-weight: bolder;
+    }
+    .articuloshome div img{
+        width: 100%;
+    }
+    .nosotros{
+        display: flex;
+        margin: 20px;
+    }
+    .nosotros img{
+        border: 1px;
+        margin: 40px;
+        height: 300px;
+        width: 300px;
+    }
+    .nosotros .nosotros-text{
+        flex-direction: column;
+        text-align: center;
+        align-content: center;
+    }
+}

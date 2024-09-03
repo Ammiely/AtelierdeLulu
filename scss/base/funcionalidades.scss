@@ -1,0 +1,17 @@
+//*Colores principales
+$colores: pink, #d3697b, black;
+$font: 10px, 14px, 58px;
+
+//*Extend
+%links{
+    text-decoration: none;
+    color: nth($colores, 3);
+    font-weight: bold;
+}
+//*Mixin
+@mixin flex($flex, $justify, $align){
+    display: $flex;
+    justify-content: $justify;
+    align-items: $align;
+}
+
