@@ -3,7 +3,7 @@ main section h1{
     padding: 20px;
     @include flex(flex, center, none);
     color: nth($colores, 2);
-    font-size: nth($font , 3);
+    font-size: nth($font , 5);
 }
 .hero{
     margin: 20px;
@@ -25,6 +25,13 @@ main section h1{
     border: 3px solid nth($colores , 2);
     margin: 20px;
     text-align: center;
+    transition: 1s;
+}
+.articuloshome div:hover{
+    transform: scale(1.1);
+    -webkit-box-shadow: 6px 8px 13px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: 6px 8px 13px -2px rgba(0,0,0,0.75);
+box-shadow: 6px 8px 13px -2px rgba(0,0,0,0.75);
 }
 .articuloshome div a{
     @extend %links;
@@ -49,13 +56,20 @@ main section h1{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: 1fr;
-    gap: 1rem;
+    gap: 2rem;
+}
+.articulossale div:hover{
+    transform: scale(1.1);
+    -webkit-box-shadow: 6px 8px 13px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: 6px 8px 13px -2px rgba(0,0,0,0.75);
+box-shadow: 6px 8px 13px -2px rgba(0,0,0,0.75);
 }
 .tarjetassale{
     border: 3px solid nth($colores , 2);
     @include flex(flex, center, center);
     flex-direction: column;
     text-align: center;
+    transition: 1s;
 }
 .imagensale{
     width: 100%;
